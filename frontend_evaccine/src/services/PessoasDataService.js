@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const API URL = 'http://localhost:8080/'
+const API_URL = 'http://localhost:8080/'
 
-export default class PessoaDataService {
+class PessoasDataService{
 
     retriveAllPessoas(){
         return axios.get(`${API_URL}pessoas`);
@@ -13,5 +13,5 @@ export default class PessoaDataService {
     }
 
 }
-
-    export default  new PessoaDataService();
+    
+    export default  new PessoasDataService();

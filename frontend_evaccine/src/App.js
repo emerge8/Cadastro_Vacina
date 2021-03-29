@@ -19,7 +19,7 @@ export default function App() {
        </Header>
         <Content style={{padding: '0 50px'}}>
         <div classname="site-layout-contentet">
-          <p>Conteudo</p>
+          
           <ListaPessoas></ListaPessoas>
         </div>
         </Content>
